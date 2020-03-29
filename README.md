@@ -5,7 +5,7 @@ Create all permutations of words, where each word can have different variants (s
 ## Build
 
 ```
-git clone TODO
+git clone https://github.com/wansing/permute-variants
 go build
 ```
 
