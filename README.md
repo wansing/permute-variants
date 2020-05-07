@@ -6,13 +6,14 @@ Create all permutations of words, where each word can have different variants (s
 
 ```
 git clone https://github.com/wansing/permute-variants
+cd permute-variants
 go build
 ```
 
 ## Usage
 
 ```
-./permute-variants file1.txt file2.txt file3.txt ...
+./permute-variants file1 file2 ...
 ```
 
 ## Example
@@ -47,4 +48,10 @@ tentbanana
 apartmentcherry
 housecherry
 tentcherry
+```
+
+Or pipe the output into a file:
+
+```
+$ ./permute-variants a.txt b.txt > output.txt
 ```
